@@ -1,0 +1,1 @@
+Key.shift 'H' Key.backspace Key.backspace Key.shift 'H' 'i' Key.space 's' 'h' 'i' 'v' 'a' Key.space 'h' 'o' 'w' Key.space 'a' 'r' 'e' Key.space 'y' 'o' 'u' Key.space 'd' 'o' 'i' 'n' 'g' Key.space Key.shift_r '?' Key.space Key.enter Key.esc
