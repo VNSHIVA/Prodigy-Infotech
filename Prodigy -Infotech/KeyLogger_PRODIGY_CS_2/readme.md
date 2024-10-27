@@ -1,30 +1,18 @@
-# Task 2: Image Encryption Tool
+# Task 4: Simple Keylogger
 
-This Python program provides a simple image encryption tool using pixel manipulation techniques. Users can encrypt and decrypt images by performing mathematical operations on pixel values, all while enjoying a user-friendly experience with clear prompts.
+This Python program implements a basic keylogger that captures and logs keystrokes. Designed as an educational tool, it demonstrates how keylogging works while incorporating ethical considerations. User consent is required before running the program.
 
 ## Features
 
-- **Image Encryption**: Encrypts an image by applying a mathematical operation to each pixel value, altering the image.
-- **Image Decryption**: Reverses the encryption process to restore the original image.
-- **User Input**: Users can specify the image file and the encryption key.
-- **File Handling**: Saves encrypted and decrypted images to designated file paths.
+- **Key Logging**: Records every keystroke along with a timestamp.
+- **Log File**: Saves the logged keystrokes to a specified file for later review.
+- **User Consent**: Includes a disclaimer and requires user acceptance of the terms and conditions before use.
+- **Duration Control**: Allows the user to specify how long the keylogger should run.
 
-## How It Works
+## How to Use
 
-- **Encrypt Image**: Each pixel value is multiplied by a key and then divided by the key plus one to create the encrypted image.
-- **Decrypt Image**: The encryption process is reversed by multiplying each pixel value by the key plus one and dividing by the key.
-
-## Usage Instructions
-
-1. **Run the Program**: Execute the script to start the Image Encryption Tool.
-2. **Select an Action**:
-   - Press `'e'` for encryption
-   - Press `'d'` for decryption
-   - Press `'q'` to quit
-3. **Encrypting an Image**:
-   - Enter the encryption key.
-   - Specify the location or URL of the image you want to encrypt.
-4. **Decrypting an Image**:
-   - Enter the decryption key.
-   - Specify the location of the encrypted image.
-5. **View Results**: The program will save the encrypted and decrypted images and indicate their file paths.
+1. **Run the Program**: Execute the script to start the keylogger.
+2. **Read and Accept Disclaimer**: Carefully read the disclaimer provided in the console and accept the terms and conditions to proceed.
+3. **Specify Duration**: Enter the duration (in seconds) for which the keylogger should log keystrokes.
+4. **Logging Keystrokes**: The program will capture and log keystrokes during the specified period.
+5. **Review Log**: Once the duration ends, the log file containing the captured keystrokes will be saved, and its location will be displayed.
